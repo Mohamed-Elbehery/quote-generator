@@ -47,9 +47,10 @@ const App = () => {
         </div>
         <FacebookShareButton
           url={"https://github.com/intern2grow/quote-generator"}
-          hashtag={"#Moaaz JR"}
+          hashtag={"#React"}
           quote={quote?.content}
           title={"Quote Generator Task"}
+          feed={"test"}
         >
           <FacebookIcon className="icon" size={50} round={true} />
         </FacebookShareButton>
@@ -62,7 +63,7 @@ const App = () => {
         <TwitterShareButton
           url={"https://github.com/intern2grow/quote-generator"}
           title={"Quote Generator Task"}
-          hashtags={["#React"]}
+          hashtags={["React"]}
         >
           <TwitterIcon className="icon" size={50} round={true} />
         </TwitterShareButton>
