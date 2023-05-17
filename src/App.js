@@ -50,7 +50,6 @@ const App = () => {
           hashtag={"#React"}
           quote={quote?.content}
           title={"Quote Generator Task"}
-          feed={"test"}
         >
           <FacebookIcon className="icon" size={50} round={true} />
         </FacebookShareButton>
